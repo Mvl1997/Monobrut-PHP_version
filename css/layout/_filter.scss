@@ -1,0 +1,42 @@
+
+ .filter{
+    height: auto;
+    ;
+    .top-image{
+margin-top: 10rem;
+    }
+
+     div{
+        margin: 2rem;
+        
+
+        font-family: bebas-reg;
+        font-size: 1.3rem;
+    }
+    p{
+        margin-top: 1rem;
+        & span.yellow-dot {
+            color: #9f0561;
+          }
+          
+    }
+    a {
+        display: inline-block;
+        text-decoration: none;
+        margin-bottom: 2rem;
+        background-color: black;
+        color: #fff;
+        font-family: inter-med;
+        font-size: 1.3rem;
+        padding: 0.5rem 1.5em;
+        border-radius: 99em;
+        transition: all 300ms ease;
+        &:hover {
+          color: #c6ff1d;
+          transform: translateY(10px);
+        }
+   
+
+}
+    
+ }

@@ -1,0 +1,46 @@
+.gallery {
+  
+  padding: 1rem;
+  h2 {
+    font-family: inter-bold;
+    font-size: 1.9rem;
+
+    .dot{
+      color: #c6ff1d;
+    }
+  }
+
+  ._option {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+  }
+  ._option button{
+   
+    
+      font-family: inter-med;
+      margin: 0.5rem;
+      margin-bottom: 1rem;
+      
+      background-color: black;
+      color: #fff;
+      font-size: 1.3rem;
+      padding: 0.5rem 1.5em;
+      border-radius: 99em;
+      transition: all 300ms ease;
+      &:hover {
+        
+        transform: translateY(10px);
+      }
+      
+      a{
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+          color: #c6ff1d;
+          
+        }
+      }
+  }
+}

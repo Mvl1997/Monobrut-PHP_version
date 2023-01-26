@@ -1,0 +1,31 @@
+{
+  "public/Lato-Regular.ttf": {
+    "file": "assets/Lato-Regular.e82542ae.ttf",
+    "src": "public/Lato-Regular.ttf"
+  },
+  "public/Lato-Bold.ttf": {
+    "file": "assets/Lato-Bold.d7f0b7f2.ttf",
+    "src": "public/Lato-Bold.ttf"
+  },
+  "public/Lato-Black.ttf": {
+    "file": "assets/Lato-Black.abf64cfa.ttf",
+    "src": "public/Lato-Black.ttf"
+  },
+  "js/index.js": {
+    "file": "assets/index.e877e4b7.js",
+    "src": "js/index.js",
+    "isEntry": true,
+    "css": [
+      "assets/index.ef9282b5.css"
+    ],
+    "assets": [
+      "assets/Lato-Regular.e82542ae.ttf",
+      "assets/Lato-Bold.d7f0b7f2.ttf",
+      "assets/Lato-Black.abf64cfa.ttf"
+    ]
+  },
+  "js/index.css": {
+    "file": "assets/index.ef9282b5.css",
+    "src": "js/index.css"
+  }
+}

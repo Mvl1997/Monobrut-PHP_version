@@ -1,0 +1,46 @@
+header {
+  background-color: #c6ff1d;
+  font-family: inter-med;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 10vh;
+  z-index: 10;
+  & .logo {
+    font-family: bebas-reg;
+    font-size: 1.5rem;
+    @media (min-width: 768px) {
+      font-size: 1.8rem;
+    }
+
+    & .dot {
+      color: #9f0561;
+    }
+  }
+  nav {
+    & .links {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        text-decoration: underline;
+      }
+      @media (min-width: 768px) {
+        padding-right: 1rem;
+        font-size: 1.1rem;
+      }
+    }
+  }
+  // responsive on tablet & desktop
+  @media (min-width: 768px) {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  @media (min-width: 1024px) {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+}
